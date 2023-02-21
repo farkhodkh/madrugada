@@ -1,0 +1,1 @@
+/Users/farkhodkh/AndroidStudioProjects/Madrugada/buildSrc/build/classes/kotlin/main/Dependencies.class:/Users/farkhodkh/AndroidStudioProjects/Madrugada/buildSrc/build/classes/kotlin/main/Versions.class
