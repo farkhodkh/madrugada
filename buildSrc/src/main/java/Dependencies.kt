@@ -15,6 +15,12 @@ object Dependencies {
     const val dagger = "com.google.dagger:dagger"
     const val daggerCompiler = "com.google.dagger:dagger-compiler"
     const val cicerone = "com.github.terrakok:cicerone"
+    const val androidxNavigation = "androidx.navigation"
+    const val navigationFragment = "navigation-fragment-ktx"
+    const val navigationUi = "navigation-ui-ktx"
+    const val navigationDynamic = "navigation-dynamic-features-fragment"
+    const val navigationTesting = "navigation-testing"
+    const val navigationCompose = "navigation-compose"
 }
 
 object Versions {
@@ -33,4 +39,5 @@ object Versions {
     const val dagger = "2.45"
     const val cicerone = "7.1"
     const val compileSdkVersion = "android-32"
+    const val androidxNavigation = "2.5.3"
 }

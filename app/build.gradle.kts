@@ -58,8 +58,16 @@ dependencies {
     implementation ("${Dependencies.dagger}:${Versions.dagger}")
     implementation ("${Dependencies.daggerCompiler}:${Versions.dagger}")
 
-    // Cicerone
-    implementation ("${Dependencies.cicerone}:${Versions.cicerone}")
+    //Navigation component
+    // Kotlin
+    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationFragment}:${Versions.androidxNavigation}")
+    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationUi}:${Versions.androidxNavigation}")
+    // Feature module Support
+    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationDynamic}:${Versions.androidxNavigation}")
+    // Testing Navigation
+    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationTesting}:${Versions.androidxNavigation}")
+    // Jetpack Compose Integration
+    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationCompose}:${Versions.androidxNavigation}")
 
     //Testing
     implementation ("${Dependencies.junit}:${Versions.junit}")
