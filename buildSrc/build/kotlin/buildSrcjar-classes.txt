@@ -1,1 +1,1 @@
-/Users/farkhodkh/AndroidStudioProjects/Madrugada/buildSrc/build/classes/kotlin/main/Dependencies.class:/Users/farkhodkh/AndroidStudioProjects/Madrugada/buildSrc/build/classes/kotlin/main/Versions.class
+C:\Users\Adm-F.Khaknazarov\AndroidStudioProjects\madrugada\buildSrc\build\classes\kotlin\main\Dependencies.class;C:\Users\Adm-F.Khaknazarov\AndroidStudioProjects\madrugada\buildSrc\build\classes\kotlin\main\Versions.class
