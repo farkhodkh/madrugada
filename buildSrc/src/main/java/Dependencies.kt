@@ -14,13 +14,25 @@ object Dependencies {
     const val extJunit = "androidx.test.ext:junit"
     const val dagger = "com.google.dagger:dagger"
     const val daggerCompiler = "com.google.dagger:dagger-compiler"
-    const val cicerone = "com.github.terrakok:cicerone"
     const val androidxNavigation = "androidx.navigation"
-    const val navigationFragment = "navigation-fragment-ktx"
-    const val navigationUi = "navigation-ui-ktx"
-    const val navigationDynamic = "navigation-dynamic-features-fragment"
-    const val navigationTesting = "navigation-testing"
-    const val navigationCompose = "navigation-compose"
+
+    const val core = "androidx.core:core-ktx:1.6.0"
+    const val appCompat = "androidx.appcompat:appcompat:1.3.0"
+
+    const val activityCompose = "androidx.activity:activity-compose"
+    const val composeFoundation = "androidx.compose.foundation:foundation"
+    const val annotation = "androidx.annotation:annotation"
+
+    const val composeUi = "androidx.compose.ui:ui"
+    const val composeMaterial = "androidx.compose.material:material"
+    const val composeUiUtil = "androidx.compose.ui:ui-util"
+    const val composeUiToolPreview = "androidx.compose.ui:ui-tooling-preview"
+    const val composeUiTool = "androidx.compose.ui:ui-tooling"
+    const val composeLiveDate = "androidx.compose.runtime:runtime-livedata"
+
+    const val composeNavigation = "androidx.navigation:navigation-compose"
+    const val composeConstraint = "androidx.constraintlayout:constraintlayout-compose"
+
 }
 
 object Versions {
@@ -29,7 +41,8 @@ object Versions {
     const val versionCode = 1
     const val versionName = "1.0"
     const val androidApplication = "7.3.1"
-    const val kotlinAndroid = "1.7.20"
+    const val androidAnnotation = "1.2.0"
+    const val kotlinAndroid = "1.7.10"
     const val coreKtx = "1.5.0"
     const val appcompat = "1.5.0"
     const val androidMaterial = "1.8.0"
@@ -37,7 +50,14 @@ object Versions {
     const val junit = "4.13.2"
     const val extJunit = "1.1.5"
     const val dagger = "2.45"
-    const val cicerone = "7.1"
     const val compileSdkVersion = "android-32"
     const val androidxNavigation = "2.5.3"
+//    const val composeActivity = "1.4.0"
+
+    const val compose = "1.0.5"//1.4.0
+    const val activityCompose = "1.4.0"
+    const val composeActivity = "1.4.0"
+    const val annotation = "1.2.0"
+    const val composeNavigation = "2.4.0-alpha10"
+    const val composeConstraint = "1.0.0-rc01"
 }

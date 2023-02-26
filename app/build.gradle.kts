@@ -40,7 +40,12 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true
+//        viewBinding = true
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.3.1"
     }
 }
 
@@ -51,23 +56,29 @@ dependencies {
     //Core
     implementation ("${Dependencies.coreKtx}:${Versions.coreKtx}")
     implementation ("${Dependencies.appcompat}:${Versions.appcompat}")
+    implementation ("${Dependencies.annotation}:${Versions.annotation}")
     implementation ("${Dependencies.androidMaterial}:${Versions.androidMaterial}")
-    implementation ("${Dependencies.constraintlayout}:${Versions.constraintlayout}")
+
+    //Compose
+    implementation ("${Dependencies.composeConstraint}:${Versions.composeConstraint}")
+    implementation ("${Dependencies.composeUi}:${Versions.compose}")
+    implementation ("${Dependencies.composeMaterial}:${Versions.compose}")
+    implementation ("${Dependencies.composeUiUtil}:${Versions.compose}")
+    implementation ("${Dependencies.composeUiToolPreview}:${Versions.compose}")
+    implementation ("${Dependencies.composeUiTool}:${Versions.compose}")
+    implementation ("${Dependencies.activityCompose}:${Versions.activityCompose}")
+    implementation ("${Dependencies.composeNavigation}:${Versions.composeNavigation}")
+    implementation ("${Dependencies.composeFoundation}:${Versions.compose}")
+
+    //Lifecycle
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+
+    //Lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
     //Dagger 2
     implementation ("${Dependencies.dagger}:${Versions.dagger}")
     implementation ("${Dependencies.daggerCompiler}:${Versions.dagger}")
-
-    //Navigation component
-    // Kotlin
-    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationFragment}:${Versions.androidxNavigation}")
-    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationUi}:${Versions.androidxNavigation}")
-    // Feature module Support
-    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationDynamic}:${Versions.androidxNavigation}")
-    // Testing Navigation
-    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationTesting}:${Versions.androidxNavigation}")
-    // Jetpack Compose Integration
-    implementation("${Dependencies.androidxNavigation}:${Dependencies.navigationCompose}:${Versions.androidxNavigation}")
 
     //Testing
     implementation ("${Dependencies.junit}:${Versions.junit}")
