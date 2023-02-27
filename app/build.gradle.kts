@@ -71,10 +71,7 @@ dependencies {
     implementation ("${Dependencies.composeFoundation}:${Versions.compose}")
 
     //Lifecycle
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
-
-    //Lifecycle
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+    implementation ("${Dependencies.lifecycle}:${Versions.lifecycle}")
 
     //Dagger 2
     implementation ("${Dependencies.dagger}:${Versions.dagger}")
