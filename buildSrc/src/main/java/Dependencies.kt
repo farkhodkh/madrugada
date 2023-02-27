@@ -16,9 +16,6 @@ object Dependencies {
     const val daggerCompiler = "com.google.dagger:dagger-compiler"
     const val androidxNavigation = "androidx.navigation"
 
-    const val core = "androidx.core:core-ktx:1.6.0"
-    const val appCompat = "androidx.appcompat:appcompat:1.3.0"
-
     const val activityCompose = "androidx.activity:activity-compose"
     const val composeFoundation = "androidx.compose.foundation:foundation"
     const val annotation = "androidx.annotation:annotation"
@@ -32,6 +29,7 @@ object Dependencies {
 
     const val composeNavigation = "androidx.navigation:navigation-compose"
     const val composeConstraint = "androidx.constraintlayout:constraintlayout-compose"
+    const val lifecycle = "androidx.lifecycle:lifecycle-viewmodel-ktx"
 
 }
 
@@ -54,10 +52,11 @@ object Versions {
     const val androidxNavigation = "2.5.3"
 //    const val composeActivity = "1.4.0"
 
-    const val compose = "1.0.5"//1.4.0
+    const val compose = "1.0.5"
     const val activityCompose = "1.4.0"
     const val composeActivity = "1.4.0"
     const val annotation = "1.2.0"
     const val composeNavigation = "2.4.0-alpha10"
     const val composeConstraint = "1.0.0-rc01"
+    const val lifecycle = "2.5.1"
 }
