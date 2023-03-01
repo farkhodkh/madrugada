@@ -1,8 +1,12 @@
 object Dependencies {
     const val applicationId = "ru.transitcard.madrugada"
     const val namespace = "ru.transitcard.madrugada"
+    const val namespaceUi = "ru.transitcard.madrugada.ui"
     const val namespaceUtil = "ru.transitcard.madrugada.util"
     const val namespaceCore = "ru.transitcard.madrugada.core"
+    const val namespaceMainscreen = "ru.transitcard.madrugada.mainscreen"
+
+
     const val androidApplication = "com.android.application"
     const val kotlinAndroid = "android"
     const val testInstrumentationRunner = "testInstrumentationRunner"
@@ -37,6 +41,7 @@ object Versions {
     const val minSdkVersion = 23
     const val targetSdk = 32
     const val versionCode = 1
+    const val kotlinCompilerExtensionVersion = "1.3.1"
     const val versionName = "1.0"
     const val androidApplication = "7.3.1"
     const val androidAnnotation = "1.2.0"
@@ -50,7 +55,6 @@ object Versions {
     const val dagger = "2.45"
     const val compileSdkVersion = "android-32"
     const val androidxNavigation = "2.5.3"
-//    const val composeActivity = "1.4.0"
 
     const val compose = "1.0.5"
     const val activityCompose = "1.4.0"
@@ -59,4 +63,5 @@ object Versions {
     const val composeNavigation = "2.4.0-alpha10"
     const val composeConstraint = "1.0.0-rc01"
     const val lifecycle = "2.5.1"
+    //1.2.0-alpha05
 }

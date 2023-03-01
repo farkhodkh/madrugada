@@ -8,10 +8,7 @@ import androidx.compose.material.Scaffold
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.navigation.compose.rememberNavController
-import ru.transitcard.madrugada.navigation.BottomBarItem
-import ru.transitcard.madrugada.navigation.BottomNavigationController
-import ru.transitcard.madrugada.navigation.Navigation
-import ru.transitcard.madrugada.navigation.Screens
+import ru.transitcard.madrugada.navigation.*
 import ru.transitcard.madrugada.ui.BottomNavWithBadgesTheme
 
 class MainActivity : ComponentActivity() {
@@ -50,7 +47,7 @@ class MainActivity : ComponentActivity() {
                         )
                     }
                 ) {
-                    Navigation(navController = navController)
+                    NavigationController(navController = navController)
                 }
             }
         }
