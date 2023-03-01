@@ -9,8 +9,8 @@ android {
     compileSdkVersion = Versions.compileSdkVersion
 
     defaultConfig {
-        minSdk = 23
-        targetSdk = 32
+        minSdk = Versions.minSdkVersion
+        targetSdk = Versions.targetSdk
     }
 
     buildTypes {
@@ -29,10 +29,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
-    }
-
-    buildFeatures {
-        viewBinding = true
     }
 }
 

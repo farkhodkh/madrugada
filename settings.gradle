@@ -14,5 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Madrugada"
 include ':app'
+include ':ui'
 include ':util'
 include ':core'
+include ':mainscreen'

@@ -10,11 +10,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import androidx.navigation.NavHostController
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import ru.transitcard.madrugada.ui.views.ShoppingChartScreen
 
 @ExperimentalMaterialApi
 @Composable
@@ -66,21 +62,6 @@ fun BottomNavigationController(
                     }
                 }
             )
-        }
-    }
-}
-
-@Composable
-fun Navigation(navController: NavHostController) {
-    NavHost(navController = navController, startDestination = Screens.MainScreen.route) {
-        composable(Screens.MainScreen.route) {
-            HomeScreen({})
-        }
-        composable(Screens.ShoppingChartScreen.route) {
-            ShoppingChartScreen({})
-        }
-        composable(Screens.SettingsScreen.route) {
-            SettingsScreen({})
         }
     }
 }

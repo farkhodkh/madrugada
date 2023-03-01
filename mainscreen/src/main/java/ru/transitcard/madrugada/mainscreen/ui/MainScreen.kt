@@ -1,14 +1,18 @@
-package ru.transitcard.madrugada.navigation
+package ru.transitcard.madrugada.mainscreen.ui
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import ru.transitcard.madrugada.navigation.Screens
 
 @Composable
-fun HomeScreen(
+fun MainScreen(
     onClickListener: (String) -> Unit
 ) {
     Column(
@@ -16,7 +20,7 @@ fun HomeScreen(
     ) {
 
         Text(
-            text ="Овновной экран",
+            text ="MainScreen",
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(16.dp)
