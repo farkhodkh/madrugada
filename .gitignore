@@ -15,6 +15,7 @@
 build/
 buildSrc/.gradle/
 buildSrc/build/
+local.properties
 
 # Package Files #
 *.jar
